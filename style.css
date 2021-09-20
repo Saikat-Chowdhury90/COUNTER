@@ -1,0 +1,78 @@
+.counter-container{
+    background-color: #d8f8ff;
+    width: 95vw;
+    height: 95vh;
+    margin-left: 2.5%;
+    position: relative;
+}
+.display-content{
+    background:linear-gradient(to right,#ade8ee,#deb9de);
+    width: 90%;
+    padding: 20px;
+    margin-left:3.25%;
+    margin-top: 2%;
+   position: absolute;
+}
+.display-content p{
+    color: #ffffff;
+    /* //margin-left: 40%; */
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size:30px;
+    font-weight: bolder;
+    font-stretch: expanded;
+    letter-spacing: 5px;
+}
+.display-box{
+    padding: 12px;
+    width: 315px;
+    margin-left: 5%;
+}
+.start-button{
+    padding: 10px;
+    width: 200px;
+    border-radius:50px;
+    border:none;
+    margin-left: 45%;
+    font-weight:bold;
+}
+.start-button:hover{
+    cursor: pointer;
+    
+    box-shadow: 1px 2px 5px 5px white;
+}
+.counter-score{
+    background-color: #555555;
+    height: 200px;
+    width: 85%;
+    margin-top: 290px;
+    margin-left:7.50%;
+    position:absolute;
+}
+
+.counter{
+    margin: 50px 45.5%;
+    margin-bottom: 2px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    overflow: hidden;
+}
+.counter p{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0px;
+    background-color: white;
+    line-height: 80px;
+    border-top: 2px solid black;
+}
+p.next{
+    top: 100px;
+    position: absolute;
+}
+p.animate{
+    transition:all 0.5s;
+    top: 0px;
+}
